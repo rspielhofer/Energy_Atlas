@@ -1,0 +1,23 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 10px;
+}
+
+div.title {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+div.comment {
+  font-style: italic;
+}
+
+a:link {
+  color: #05d;
+  text-decoration: none
+}
+
+a:visited {
+  color: #7af;
+  text-decoration: none
+}
