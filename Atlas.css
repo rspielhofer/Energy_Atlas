@@ -1,0 +1,144 @@
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	position: absolute;
+	margin: 0px;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.mappanel {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom:0px;
+	background: #fff;
+}
+
+#mapframe {
+	width: 100%;
+	height: 100%;
+}
+
+.sweepin-panel {
+  position: absolute;
+  background: #d00;
+  overflow: hidden;
+  display: inline;
+  white-space: nowrap;
+}
+
+.sweepin-panel.left {
+  left: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 10px;
+  height: 26px;
+}
+
+.sweepin-panel.right {
+  right: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 10px;
+  height: 26px;
+}
+
+.sweepin-panel.top {
+  top: 0px;
+  width: 26px;
+  height: 10px;
+}
+
+.sweepin-panel.bottom {
+  bottom: 0px;
+  width: 26px;
+  height: 10px;
+}
+
+.sweepin-panel.roll-over:hover, .sweepin-panel.clicked {
+  background: #fff;
+  width: auto;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.25);
+  opacity: 0.9;
+}
+
+.sweepin-panel.roll-over.left:hover, .sweepin-panel.clicked.left {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+.sweepin-panel.roll-over.right:hover, .sweepin-panel.clicked.right {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+}
+
+.sweepin-panel.roll-over.top:hover, .sweepin-panel.clicked.top {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+
+.sweepin-panel.roll-over.bottom:hover, .sweepin-panel.clicked.bottom {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+
+.sweepin-content {
+  position: relative;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.sweepin-content:hover {
+  cursor: pointer;
+}
+
+.sweepin-content .item, .sweepin-content .title {
+  padding: 0px 16px 0px 16px;
+  line-height: 22px;
+}
+
+.sweepin-content iframe {
+  margin: 10px 16px 10px 16px;
+}
+
+.sweepin-content .title {
+  font-weight: bold;
+}
+
+.sweepin-content .item:hover {
+  background: #d00;
+  color: white;
+}
+
+.sweepin-content .separator {
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #bbb;
+}
+
+.ns {
+	-moz-user-select: none;
+	-o-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
