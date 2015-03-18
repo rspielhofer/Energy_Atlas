@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "Startpage">
+<html>
+<meta charset="utf-8">
+<head>
+  <title>Electricity's Relation to pollution</title>
+  <link rel="stylesheet" href="CSS/Atlas.css">
+</head>
+
+<body>
+
+
+
+<!-- Main content -->
+<h1>A causes investigation and awarness atlas</h1>
+<!-- Site navigation menu -->
+
+<ul class="title ns">
+<FORM>
+ <INPUT Type="button" id="Button6"  ONCLICK="window.location.href='atlas1.html'"> 
+  <INPUT Type="button" id="Button7"  ONCLICK="window.location.href='info.html'">
+   <INPUT Type="button" id="Button8"  ONCLICK="window.location.href='question.html'">
+</FORM>
+</ul>
+
+</body>
+</html>
